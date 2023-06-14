@@ -1,0 +1,97 @@
+
+:root {
+    --midBlue: #002b8c;
+    --darkgrey: #7d7d7d;
+    --textBlue: #001950;
+    --white: #fff;
+    --lightGrey: #f7f7f7;
+    --lightBlue: #00c8fa;
+}
+
+.color{
+    background-color: #eaeaea;
+    background-color:#dadada;
+}
+
+@font-face {
+    font-family: CronosBold;
+    src: url(../fonts/CRONOS/CronosPro-Bold.otf);
+}
+
+@font-face {
+    font-family: CronosRegular;
+    src: url(../fonts/CRONOS/CronosPro-Regular.otf);
+}
+
+body{
+    background-color: var(--lightGrey);
+    color: var(--textBlue);
+}
+
+.formulario{
+    background-color: #eaeaea;
+    width: 700px;
+    height: 800px;
+    border-radius: 20px;
+    padding: 3rem 2rem;
+    margin: auto;
+    margin-bottom: 100px;
+    box-shadow: 5px 3px 3px #0004;
+}
+
+.cont_formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: CronosRegular;
+}
+
+.cont_formulario h2{
+    padding-bottom: 30px;
+}
+
+.text_form{
+    margin-top: 10px;
+}
+
+.form_imput{
+    padding: 6px 3px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0px;
+    width: 400px;
+}
+
+.form_search{
+    padding: 6px 3px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0px;
+    width: 370px;
+}
+
+
+.form_descripcion{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 400px;
+    margin: 10px 0px;
+}
+
+.form_buton{
+    font-size: 20px;
+    font-family: CronosRegular;
+    color: var(--white);
+    background-color: var(--midBlue);
+    border: none;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    width: 100px;
+    padding: 10px 0px;
+    margin-top: 30px; 
+}
